@@ -50,3 +50,10 @@ h5 {
 p {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+.price {
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    font-size: 16px;
+    font-weight: bold;
+}
