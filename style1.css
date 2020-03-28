@@ -1,0 +1,21 @@
+#webname {
+    text-align: center;
+   font-family: Chalkduster, fantasy;
+   font-size: xx-large;
+   text-decoration: underline;
+   font-weight: 500;
+}
+
+#quote {
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    font-size: large;
+}
+
+.nav {
+    background-color: black;
+    color: white
+}
+.nav .nav-item {
+    background-color: black
+}
