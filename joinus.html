@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+    <head>
     <title>Big Country Backpackers</title>
+    <!--Links to JAVA, CSS, and BOOTSRAP-->
+    <link rel= "stylesheet" href= "style2.css">
     <link rel= "stylesheet" href= "style1.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -13,6 +16,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
+<!--End of links-->
+<!--Start of header-->
 <header id= "webname">Big Country Backpackers</header>
 <h3 id= "quote">"If it ain't Big Country it ain't backpacking" - El Jeffe</h3>
 
@@ -27,5 +32,51 @@
       <a class="nav-link" href="joinus.html">Join Us</a>
     </li>
   </ul>
-    <p>sign up now</p>
+  <!--end of header-->
+  <hr>
+  <!--Start of submition form-->
+<p id= "joinus">Join Big Country Nation!</p>
+
+<form>
+    <ul class="form-style-1">
+        <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" 
+        class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" 
+        placeholder="Last" />
+    </li>
+        <li>
+            <label>Email <span class="required">*</span></label>
+            <input type="email" name="field3" class="field-long" placeholder= "Enter Email"/>
+        </li>
+        <li>
+            <label>Interests</label>
+            <select name="field4" class="field-select">
+            <option value="Advertise">Backpacking</option>
+            <option value="Partnership">Hiking</option>
+            <option value="General Question">Camping</option>
+            </select>
+        </li>
+        <li>
+            <label>Your Message <span class="required" >*</span></label>
+            <textarea name="field5" id="field5" class="field-long field-textarea" placeholder= "Tell us why you want to join"></textarea>
+        </li>
+        <li>
+            <input type="submit" value="Join Now" />
+        </li>
+    </ul>
+    </form>
+<!--End of submition form-->
+<hr>
+<!--Start of footer-->
+<footer>
+    <div class="media">
+        <img id = "footlogo" src="images/headerlogo.jpg" class="align-self-end mr-3" alt="my logo" height= 200px; width= 220;>
+        <div class="media-body">
+          <h5 class="mt-0">Why Join Our Nation?</h5>
+          <p> Joining Big Country Backpackers Nation will grant you immediate access to all our of latest online deals! 
+              We will notify you via email as soon as something is on sale so that you can always be stocked up on the 
+              latest Big Country Certfied gear. 
+        </div>
+      </div>
+      
+</footer>
 </html>

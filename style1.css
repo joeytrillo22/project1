@@ -32,3 +32,21 @@
     font-size: 20px;
 
 }
+
+#joinus {
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+h5 {
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
