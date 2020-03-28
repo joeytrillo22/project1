@@ -20,3 +20,11 @@
 .nav-link {
     color: whitesmoke
 }
+
+#footlogo {
+        border-radius: 99%;
+      }
+
+#headerlogo {
+display: inline-block;
+}
