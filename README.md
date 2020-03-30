@@ -7,3 +7,5 @@
 # Technologies used: HTML, CSS, JAVA, Bootstrap, VSC, Github
 
 # Future Idea's: Adding a blog, Integrating product review section, adding photo submitions.
+
+# link for wire frames https://drive.google.com/file/d/1R8Dh9yHhRnQRj7yLltJAiZf8OuFTO2BE/view?usp=sharing
